@@ -1,0 +1,25 @@
+<input type="text" [(ngModel)]="name"> <button (click)="spawnWorkflow()"> Fetch </button>
+<table>
+  <tr *ngIf="employee">
+    <td>Name</td><td>{{employee.Name}}</td>
+  </tr>
+  <tr *ngIf="position">
+    <td>Position</td><td>{{position.Name}}</td>
+  </tr>
+  <tr *ngIf="employee">
+    <td>Department</td><td>{{employee.Department}}</td>
+  </tr>
+  <tr *ngIf="employee">
+    <td>Email</td><td>{{employee.Email}}</td>
+  </tr>
+  <tr *ngIf="employee">
+    <td>Phone</td><td>{{employee.Phone}}</td>
+  </tr>
+  <tr *ngIf="location">
+    <td>Location</td><td>Building{{location.Building}}-{{location.Cube}}</td>
+  </tr>
+  <tr *ngIf="location">
+    <td>City</td><td>{{location.City}}</td>
+  </tr>
+  
+</table>

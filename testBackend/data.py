@@ -52,7 +52,7 @@ employees = {
  'LocationID': 'X4000',
  'ReportsTo' : 'Robert Baratheon'
  },
-'Robert Baratheon': {         
+'Tywin Lannister': {         
  'UserId': 'lannister.tywin',
  'Name': 'Tywin Lannister',
  'PositionID': '5',
